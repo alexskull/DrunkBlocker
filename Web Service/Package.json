@@ -1,0 +1,10 @@
+{
+  "name": "Tricky-Lock",
+  "version": "0.0.1",
+  "description": "Web Service tricky lock",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.10.4",
+    "mongoose": "latest"
+  }
+}

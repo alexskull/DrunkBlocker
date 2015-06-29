@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blocker Phone</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_drunk__blocker">Drunk_Blocker</string>
+    <string name="title_activity_alarma">Alarma</string>
+
+    <string-array name="opciones">
+        <item>opc1</item>
+        <item>opc2</item>
+        <item>opc3</item>
+        <item>opc4</item>
+    </string-array>
+
+    <string name="title_activity_nueva__alarma">Nueva_Alarma</string>
+    <string name="title_activity_modificar__alarma">Modificar_Alarma</string>
+
+    <string name="Pregunta1">¿Quien quiere sacar toda la nota a pesar de los pequeños fallos de su entrega?</string>
+    <string-array name="Respeustas1">
+        <item>Los Nazis</item>
+        <item>El FBI</item>
+        <item>Los estudiantes de la ULA</item>
+        <item>El equipo android</item>
+    </string-array>
+    <string name="Respuesta_Correcta1">El equipo android</string>
+
+
+    <string name="Pregunta2">¿Que colores tiene la bandera de la República Bolivariana de Venezuela?</string>
+    <string-array name="Respeustas2">
+        <item>Amarillo, Azul, Rojo y estrellas Blancas</item>
+        <item>Amarillo, Azul, Verde y una flor roja</item>
+        <item>Rojo, Blanco y Azul y estrellas Blancas</item>
+        <item>Rojo y un obvi en color Negro</item>
+    </string-array>
+    <string name="Respuesta_Correcta2">Amarillo, Azul, Rojo y estrellas Blancas</string>
+
+    <string name="Pregunta3">¿Un cuatro tiene cuantas cuerdas?</string>
+    <string-array name="Respeustas3">
+        <item>3</item>
+        <item>4</item>
+        <item>6</item>
+        <item>12</item>
+    </string-array>
+    <string name="Respuesta_Correcta3">4</string>
+
+    <string name="Pregunta4">¿Cuanto es 87 - 36?</string>
+    <string-array name="Respeustas4">
+        <item>51</item>
+        <item>53</item>
+        <item>48</item>
+        <item>65</item>
+    </string-array>
+    <string name="Respuesta_Correcta4">51</string>
+
+    <string name="Pregunta5">¿Cuanto es 12 * 10?</string>
+    <string-array name="Respeustas5">
+        <item>1210</item>
+        <item>120</item>
+        <item>1200</item>
+        <item>12</item>
+    </string-array>
+    <string name="Respuesta_Correcta5">120</string>
+
+    <string name="Pregunta6">¿Como se llamo el presidente de la República Bolivariana de Venezuela en el año 2000?</string>
+    <string-array name="Respeustas6">
+        <item>Hugo Rafael Chavez Frias</item>
+        <item>Barak Obama</item>
+        <item>Adolfo Hitler</item>
+        <item>Fidel Castro</item>
+    </string-array>
+    <string name="Respuesta_Correcta6">Hugo Rafael Chavez Frias</string>
+
+    <string name="Pregunta7">¿Que es un OVNI?</string>
+    <string-array name="Respeustas7">
+        <item>Un platillo volador no identificado</item>
+        <item>El nombre de una sociedad secreta mistica</item>
+        <item>El nombre de los Dioses antiguos de Mortal Kombat</item>
+        <item>Un avion turbo jet</item>
+    </string-array>
+    <string name="Respuesta_Correcta7">Un platillo volador no identificado</string>
+
+    <string name="Pregunta8">¿Cuantos dedos hay en una mano humana comun?</string>
+    <string-array name="Respeustas8">
+        <item>6</item>
+        <item>5</item>
+        <item>3</item>
+        <item>8</item>
+    </string-array>
+    <string name="Respuesta_Correcta8">5</string>
+
+    <string name="Pregunta9">Según el dicho popular, ¿cual es el mejor amigo del hombre?</string>
+    <string-array name="Respeustas9">
+        <item>El perro</item>
+        <item>El compadre</item>
+        <item>El padre</item>
+        <item>Una cerveza</item>
+    </string-array>
+    <string name="Respuesta_Correcta9">El perro</string>
+
+    <string name="Pregunta10">Uno de los personajes de Chespirito fue:</string>
+    <string-array name="Respeustas10">
+        <item>El chavo del 6</item>
+        <item>El capitan america</item>
+        <item>Goku</item>
+        <item>El chapulin colorado</item>
+    </string-array>
+    <string name="Respuesta_Correcta10">El chapulin colorado</string>
+
+
+    <string name="Pregunta_Grafica1.0">Seleccione el libro azul</string>
+    <string name="Respuesta_Grafica1.1">Verde</string>
+    <string name="Respuesta_Grafica1.2">Azul</string>
+    <string name="Respuesta_Correcta_Grafica1">Azul</string>
+
+    <string name="Pregunta_Grafica2.0">Seleccione al presidente de EE.UU del año 2014</string>
+    <string name="Respuesta_Grafica2.1">Barak Obama</string>
+    <string name="Respuesta_Grafica2.2">George Bush</string>
+    <string name="Respuesta_Correcta_Grafica2">Barak Obama</string>
+
+    <string name="Pregunta_Grafica3.0">¿Cual es la bandera de Venezuela?</string>
+    <string name="Respuesta_Grafica3.1">Venezuela</string>
+    <string name="Respuesta_Grafica3.2">Otra Bandera</string>
+    <string name="Respuesta_Correcta_Grafica3">Venezuela</string>
+
+    <string name="Pregunta_Grafica4.0">Seleccione la Bicicleta</string>
+    <string name="Respuesta_Grafica4.1">Bicicleta</string>
+    <string name="Respuesta_Grafica4.2">Motocicleta</string>
+    <string name="Respuesta_Correcta_Grafica4">Bicicleta</string>
+
+    <string name="Pregunta_Grafica5.0">¿Cual de los 2, es un cuatro venezolano?</string>
+    <string name="Respuesta_Grafica5.1">Cuatro</string>
+    <string name="Respuesta_Grafica5.2">Guitarra</string>
+    <string name="Respuesta_Correcta_Grafica5">Cuatro</string>
+
+    <string name="Pregunta_Grafica6.0">¿Cual de los 2 es el verdadero sol?</string>
+    <string name="Respuesta_Grafica6.1">Girasol</string>
+    <string name="Respuesta_Grafica6.2">Sol</string>
+    <string name="Respuesta_Correcta_Grafica6">Sol</string>
+
+    <string name="Pregunta_Grafica7.0">¿Cual de los 2 es una fruta?</string>
+    <string name="Respuesta_Grafica7.1">Granada</string>
+    <string name="Respuesta_Grafica7.2">Zapote</string>
+    <string name="Respuesta_Correcta_Grafica7">Zapote</string>
+
+    <string name="Pregunta_Grafica8.0">Seleccione al policia</string>
+    <string name="Respuesta_Grafica8.1">Policia</string>
+    <string name="Respuesta_Grafica8.2">Guardabosques</string>
+    <string name="Respuesta_Correcta_Grafica8">Policia</string>
+
+    <string name="Pregunta_Grafica9.0">¿Cual de los 2 no es un televisor?</string>
+    <string name="Respuesta_Grafica9.1">Cine</string>
+    <string name="Respuesta_Grafica9.2">Televisor</string>
+    <string name="Respuesta_Correcta_Grafica9">Cine</string>
+
+    <string name="Pregunta_Grafica10.0">¿Cual de los 2 no es un perro?</string>
+    <string name="Respuesta_Grafica10.1">Perro</string>
+    <string name="Respuesta_Grafica10.2">Lobo</string>
+    <string name="Respuesta_Correcta_Grafica10">Lobo</string>
+
+</resources>

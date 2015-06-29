@@ -1,0 +1,108 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.luisgluna.vista_lista_expandible.Nueva_Alarma"
+    android:id="@+id/formato">
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activar Alarma"
+        android:id="@+id/ActivarAlarma"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onCheckboxClicked" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ingrese la hora"
+        android:id="@+id/ingresarhora"
+        android:layout_below="@+id/ActivarAlarma"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/horas"
+        android:layout_below="@+id/ingresarhora"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=":"
+        android:id="@+id/textView4"
+        android:layout_alignTop="@+id/horas"
+        android:layout_toRightOf="@+id/horas"
+        android:layout_toEndOf="@+id/horas"
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000" />
+
+    <EditText
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/minutos"
+        android:layout_below="@+id/ingresarhora"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <Spinner
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner2"
+        android:layout_alignTop="@+id/minutos"
+        android:layout_toRightOf="@+id/minutos"
+        android:layout_toEndOf="@+id/minutos" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:id="@+id/aceptar"
+        android:layout_marginTop="86dp"
+        android:layout_below="@+id/etiqueta2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="Aceptar" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        android:id="@+id/cancelar"
+        android:layout_alignTop="@+id/aceptar"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2"
+        android:onClick="Cancelar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Etiqueta"
+        android:id="@+id/etiqueta"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/spinner2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etiqueta2"
+        android:focusable="true"
+        android:layout_below="@+id/etiqueta"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

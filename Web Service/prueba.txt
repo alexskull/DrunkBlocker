@@ -1,0 +1,23 @@
+{
+"Usuario": "JC",
+"Funcion_tipo": "Alarma",
+"Funcion_Pref_dia": "Lunes",
+"Funcion_Pref_Num_activado": 10,
+"Funcion_Pref_Num_desactivado": 1
+}
+
+{
+"Usuario": "LL",
+"Funcion_tipo": "Drunk",
+"Funcion_Pref_dia": "Jueves",
+"Funcion_Pref_Num_activado": 20,
+"Funcion_Pref_Num_desactivado": 2
+}
+
+{
+"Usuario": "JC",
+"Funcion_tipo": "Alarma",
+"Funcion_Pref_dia": "Lunes",
+"Funcion_Pref_Num_activado": 12,
+"Funcion_Pref_Num_desactivado": 3
+}

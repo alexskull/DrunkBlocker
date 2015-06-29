@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DrunkBlocker.iml" filepath="$PROJECT_DIR$/DrunkBlocker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Vista_Lista_Expandible.iml" filepath="$PROJECT_DIR$/Vista_Lista_Expandible.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
+

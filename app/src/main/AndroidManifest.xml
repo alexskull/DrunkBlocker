@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.luisgluna.vista_lista_expandible" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Drunk_Blocker"
+            android:label="@string/title_activity_drunk__blocker" >
+        </activity>
+        <activity
+            android:name=".Alarma"
+            android:label="@string/title_activity_alarma" >
+        </activity>
+        <activity
+            android:name=".Nueva_Alarma"
+            android:label="@string/title_activity_nueva__alarma" >
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".Modificar_Alarma"
+            android:label="@string/title_activity_modificar__alarma" >
+        </activity>
+    </application>
+
+</manifest>
